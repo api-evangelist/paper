@@ -1,8 +1,27 @@
 aid: paper
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paper.png
 name: Paper
-description: 'Paper is a company surfaced as a portfolio company of accel, bullpen-capital, ivp, sapphire-ventures,
-  softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. Sector: design.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Paper (paper.design) is a modern, agent-native design tool built on HTML and CSS web
+  standards — a connected canvas where teams design, share, and ship with AI agents.
+  Instead of drawing abstract vector representations of interfaces, Paper renders real
+  HTML/CSS, so what you design is production code (exportable as React/Tailwind JSX) and
+  what you code appears on the canvas. AI agents connect through a first-party, authenticated
+  Model Context Protocol (MCP) server to read and write design files directly (Cursor, Claude
+  Code, Copilot, Codex), and the app ships a browser-side WebMCP origin trial. Paper also
+  publishes the open-source Paper Shaders component libraries. Backed by Accel, Bullpen
+  Capital, IVP, Sapphire Ventures, and SoftBank Vision Fund.
 url: https://raw.githubusercontent.com/api-evangelist/paper/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,10 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Design
+- Design Tools
+- MCP
+- Agents
+- HTML
+- CSS
+- Developer Tools
+- Design to Code
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -29,3 +55,46 @@ maintainers:
 common:
 - type: Website
   url: https://paper.design/
+- type: Documentation
+  url: https://paper.design/docs
+- type: APIReference
+  url: https://paper.design/docs/mcp
+- type: MCPServer
+  url: mcp/paper-mcp.yml
+- type: LLMsTxt
+  url: llms/paper-llms.txt
+- type: Packages
+  url: packages/paper-packages.yml
+- type: Components
+  url: components/paper-components.yml
+- type: ChangeLog
+  url: changelog/paper-changelog.yml
+- type: Lifecycle
+  url: lifecycle/paper-lifecycle.yml
+- type: StatusPage
+  url: https://status.paper.design/
+- type: Roadmap
+  url: https://paper.design/roadmap
+- type: DomainSecurity
+  url: security/paper-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/paper-design
+- type: Blog
+  url: https://paper.design/blog
+- type: Support
+  url: https://paper.design/community
+- type: Pricing
+  url: https://paper.design/pricing
+- type: SignUp
+  url: https://app.paper.design/sign-up
+- type: Login
+  url: https://app.paper.design
+- type: TermsOfService
+  url: https://paper.design/legal/tos
+- type: PrivacyPolicy
+  url: https://paper.design/legal/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1

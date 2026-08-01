@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/paper-design
+packages:
+  - language: javascript
+    registry: npm
+    name: "@paper-design/shaders"
+    url: https://www.npmjs.com/package/@paper-design/shaders
+    repo: https://github.com/paper-design/shaders
+    install: npm install @paper-design/shaders
+    version: 0.0.77
+    official: true
+    description: >-
+      Zero-dependency vanilla-JS HTML canvas shaders (Paper Shaders) — animated,
+      customizable background/texture shaders that can be installed from npm or
+      designed in Paper.
+  - language: javascript
+    registry: npm
+    name: "@paper-design/shaders-react"
+    url: https://www.npmjs.com/package/@paper-design/shaders-react
+    repo: https://github.com/paper-design/shaders
+    install: npm install @paper-design/shaders-react
+    version: 0.0.77
+    official: true
+    description: >-
+      React wrapper for Paper Shaders (MeshGradient, DotOrbit, and other shader
+      components).

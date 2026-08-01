@@ -1,0 +1,66 @@
+generated: '2026-07-20'
+method: searched
+source: https://paper.design/docs/mcp
+status: published
+server:
+  name: paper
+  vendor: Paper (paper.design)
+  transport: http
+  url: http://127.0.0.1:29979/mcp
+  hosting: local
+  notes: >-
+    First-party, authenticated MCP server that lets LLM agents read and write to
+    Paper design files. Runs locally in the background while the Paper Desktop app
+    has a design file open (local HTTP endpoint on 127.0.0.1:29979). Because Paper's
+    canvas is real HTML/CSS, agents consume the DOM directly. Paper also ships a
+    browser-side WebMCP origin trial on app.paper.design.
+install:
+  claude_code: claude mcp add paper --transport http http://127.0.0.1:29979/mcp --scope user
+  cursor: "/add-plugin paper-desktop"
+  vscode: add server to .vscode/mcp.json pointing at http://127.0.0.1:29979/mcp
+  requires: Paper Desktop app installed and a design file open
+tools:
+  # read-only
+  - name: get_basic_info
+    description: File name, page name, node count, and list of artboards with dimensions.
+  - name: get_selection
+    description: Details about the currently selected nodes (IDs, names, types, size, artboard).
+  - name: get_node_info
+    description: Details for a node by ID (size, visibility, lock, parent, children, text content).
+  - name: get_children
+    description: Direct children of a node (IDs, names, types, child counts).
+  - name: get_tree_summary
+    description: Compact text summary of a node's subtree hierarchy (optional depth limit).
+  - name: get_screenshot
+    description: Screenshot of a node by ID (base64 image; optional 1x or 2x scale).
+  - name: get_jsx
+    description: JSX for a node and its descendants (Tailwind or inline-styles format).
+  - name: get_computed_styles
+    description: Computed CSS styles for a node.
+  - name: get_fill_image
+    description: Fill/background image data for a node.
+  - name: get_font_family_info
+    description: Font family metadata for text nodes.
+  - name: get_guide
+    description: Contextual usage guide for working with the file.
+  - name: export
+    description: Export a node/selection.
+  # write
+  - name: create_artboard
+    description: Create a new artboard/frame.
+  - name: write_html
+    description: Write HTML into the canvas as editable layers.
+  - name: set_text_content
+    description: Set the text content of a node.
+  - name: rename_nodes
+    description: Rename one or more nodes.
+  - name: duplicate_nodes
+    description: Duplicate one or more nodes.
+  - name: move_nodes
+    description: Move one or more nodes.
+  - name: update_styles
+    description: Update CSS styles on one or more nodes.
+  - name: delete_nodes
+    description: Delete one or more nodes.
+  - name: finish_working_on_nodes
+    description: Signal completion of work on a set of nodes.

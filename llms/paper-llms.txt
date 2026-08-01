@@ -1,0 +1,43 @@
+# Paper
+
+> Paper is a modern design tool built on HTML & CSS standards. Design on a canvas, export as React code, and connect AI agents that can read and write to your designs via MCP. Unlike legacy tools that draw abstract representations of interfaces, Paper renders actual HTML and CSS — so there's nothing for agents to interpret or guess.
+
+Paper bridges design and code with a bidirectional workflow. What you design is real HTML/CSS, and what you code appears on the canvas. AI agents connect through the Model Context Protocol (MCP) to see, create, and edit designs programmatically. The canvas speaks the same language agents are trained on — zero translation loss.
+
+## Docs
+
+- [Docs](https://paper.design/docs): Documentation hub for Paper
+- [MCP Server Documentation](https://paper.design/docs/mcp): Connect AI agents (Cursor, Claude Code, Copilot, Codex) to Paper via a read/write MCP server
+- [Design MCP Overview](https://paper.design/docs/mcp#overview): What a Design MCP is and why Paper's web-standard approach produces better agent results than proprietary renderers
+- [Support](https://paper.design/docs/support): Setup help and troubleshooting guides
+- [Snapshot Local Images](https://paper.design/docs/support/snapshot-local-images): CORS configuration guides for 10+ frameworks (Next.js, Vite, Express, Django, Rails, etc.) to use Paper Snapshot with local dev servers
+
+## Compare
+
+- [Compare](https://paper.design/compare): Index of comparisons between Paper and other design tools
+- [Paper vs Figma](https://paper.design/compare/figma): Native HTML/CSS canvas vs vector abstractions — why agent-native architecture beats retrofitted MCP
+- [Paper vs Pencil](https://paper.design/compare/pencil): Pro-grade spatial design tool vs IDE-embedded canvas — both render HTML/CSS, different scope and depth
+
+## Product
+
+- [Pricing](https://paper.design/pricing): Free and Pro tiers
+- [Downloads](https://paper.design/downloads): Download Paper Desktop for macOS
+- [Snapshot Extension](https://paper.design/snapshot-extension): Copy and paste real sites directly into Paper as editable layers — no more screenshots
+- [Roadmap](https://paper.design/roadmap): Upcoming features and development priorities
+- [Build Log](https://paper.design/build-log): Detailed changelog and release notes
+- [Community](https://paper.design/community): Join Paper on Discord, X, Reddit, Slack, and more
+
+## Blog
+
+- [Blog](https://paper.design/blog): All posts — announcements, articles, and guides
+- [A real space to design in the age of agents](https://paper.design/blog/a-real-space-to-design-in-the-age-of-agents): Why the canvas must evolve to connect design to code and back as agents reshape how we build interfaces
+- [Exploring retro print with CMYK Halftone](https://paper.design/blog/retro-print-cmyk-halftone-shader): A guide to Paper's CMYK halftone image filter — how the shader works and how to tune it
+- [Announcing Paper's $4.2M seed round, led by Accel](https://paper.design/blog/seed): Paper's launch announcement and seed round
+
+## Optional
+
+- [Legal](https://paper.design/legal): Index of legal documents
+- [Privacy Policy](https://paper.design/legal/privacy): How we collect, use, and protect your data
+- [Terms of Service](https://paper.design/legal/tos): Terms and conditions for using Paper
+- [Data Processing Addendum](https://paper.design/legal/dpa): How we process data on your behalf, GDPR-compliant
+- [Subprocessors](https://paper.design/legal/subprocessors): Third-party services Paper uses to operate

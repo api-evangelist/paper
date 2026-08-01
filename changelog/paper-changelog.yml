@@ -1,0 +1,48 @@
+generated: '2026-07-20'
+method: searched
+source: https://paper.design/build-log
+scheme: continuous-dated
+notes: >-
+  Paper does not use semantic versioning; the Build Log is a continuously updated,
+  date-stamped changelog of features and improvements. Recent window captured below.
+entries:
+  - date: '2026-06'
+    highlights:
+      - Design tokens from CSS variables or the canvas
+      - Vector editing with a pen tool for SVG creation
+      - Folder organization for team files
+      - Layer selection, collaboration cursors, and performance improvements
+    breaking: false
+  - date: '2026-05'
+    highlights:
+      - Figma copy-paste
+      - PDF export
+      - Enhanced agent toolcall abilities
+      - Page reordering, sidebar resizing, HTML paste with inline styles
+    breaking: false
+  - date: '2026-04'
+    highlights:
+      - Paper Snapshot (convert webpages into editable layers)
+      - Team collaboration with editor/admin roles
+      - Expanded image generation models (OpenAI GPT Image 2, Quiver SVG)
+      - Refreshed editor UI
+    breaking: false
+  - date: '2026-03'
+    highlights:
+      - Paper Desktop with MCP server support
+      - Constraints panel for element layout
+      - Backdrop filter support and OpenType font features
+      - Redesigned file dashboard
+    breaking: false
+  - date: '2026-01-19'
+    highlights:
+      - Filter panel (blur, saturation, effects)
+      - Gradient handle reordering and SVG color editing
+      - Canvas handles for gap/padding adjustment
+    breaking: false
+  - date: '2025-12-19'
+    highlights:
+      - On-canvas gradient editing and text formatting controls
+      - AI image generation upgraded to Flux 2 and Nano Banana Pro
+      - Optical size support for variable fonts
+    breaking: false

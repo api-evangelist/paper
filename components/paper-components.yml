@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://shaders.paper.design/
+notes: >-
+  Paper Shaders is a first-party, embeddable client-side UI component library —
+  zero-dependency HTML-canvas shaders used as animated website backgrounds/textures,
+  authored in Paper or installed from npm. Distinct from server SDKs.
+loaders:
+  - "@paper-design/shaders"        # vanilla JS
+  - "@paper-design/shaders-react"  # React components
+families:
+  - family: Paper Shaders
+    surface: https://shaders.paper.design/
+    kind: canvas-shader-components
+    components:
+      - MeshGradient
+      - DotOrbit
+    notes: >-
+      Highly customizable, animated GPU/canvas shader components (mesh gradients,
+      dot orbits, and more) for use as backgrounds or masked with shapes/text.
