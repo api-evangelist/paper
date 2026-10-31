@@ -64,6 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Paper is a company surfaced as a portfolio company of accel, bullpen-capital, ivp, sapphire-ventures, softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. Sector: design. This profile is a lead awaiting the enrichment pipeline.
+Paper (paper.design) is a modern, agent-native design tool built on HTML and CSS web standards — a connected canvas where teams design, share, and ship with AI agents. Instead of drawing abstract vector representations of interfaces, Paper renders real HTML/CSS, so what you design is production code (exportable as React/Tailwind JSX) and what you code appears on the canvas. AI agents connect through a first-party, authenticated Model Context Protocol (MCP) server to read and write design files directly (Cursor, Claude Code, Copilot, Codex), and the app ships a browser-side WebMCP origin trial. Paper also publishes the open-source Paper Shaders component libraries. Backed by Accel, Bullpen Capital, IVP, Sapphire Ventures, and SoftBank Vision Fund.
 
-Backed by: accel, bullpen-capital, ivp, sapphire-ventures, softbank-vision-fund — https://paper.design/
+**Areas:** Company · Design · Design Tools · MCP · Agents · HTML · CSS · Developer Tools · Design to Code
+
+## Paper on APIs.io
+
+Everything profiled for Paper is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/paper/](https://apis.io/providers/paper/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [paper](https://apis.io/servers/paper/paper/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Paper Domain Security](https://apis.io/security/paper/paper-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://paper.design/)
+- [Documentation](https://paper.design/docs)
+- [API reference](https://paper.design/docs/mcp)
+- [Pricing](https://paper.design/pricing)
+- [Sign up](https://app.paper.design/sign-up)
+- [Support](https://paper.design/community)
+- [Blog](https://paper.design/blog)
+- [Terms of service](https://paper.design/legal/tos)
+- [Privacy policy](https://paper.design/legal/privacy)
+- [GitHub](https://github.com/paper-design)
+- [Status](https://status.paper.design/)
+
+## API Evangelist rating
+
+**Kin Score 21.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 38.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/paper/](https://apis.io/providers/paper/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Paper: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/paper/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
